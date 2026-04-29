@@ -28,12 +28,40 @@
     button:hover {
         background-color: #34495e;
     }
+	.contact {
+  max-width: 500px;
+  margin: auto;
+}
+
+.row {
+  display: flex;
+  justify-content: center;   /* 👈 center the whole row */
+  margin: 8px 0;
+}
+
+.label {
+  width: 140px;
+  font-weight: bold;
+  text-align: right;         /* 👈 labels align neatly */
+  padding-right: 10px;
+}
+
+.value {
+  width: 200px;
+  text-align: left;
+}
 </style>
 </head>
 <body>
 
-    <h1>Hello,My name is Saw Aung Ko Win👋</h1>
-    <p>I am working at Mae Tao Clinic.</p>
+    <h1>Hello,I'm Taz Poe Thaz🐱‍👤🌺</h1>
+    <p> — a self-taught programmer and creative problem solver. I started my journey with very limited resources, but strong determination pushed me forward. I believe that no matter where you come from, you can build your future with learning and consistency.
+
+I am currently learning programming, including C, Python, and web development. I enjoy building websites and improving them to look modern, responsive, and user-friendly. My goal is to become a skilled developer and create real projects that help people.
+
+Outside of coding, I enjoy playing games like PUBG, where I’ve developed strong strategic thinking and precision skills. I bring that same focus and discipline into my learning and work.
+
+I am always improving, always learning, and always moving forward.</p>
 
     <h2>About Me</h2>
     <p>I want to become a web developer and entrepreneur.</p>
@@ -45,10 +73,28 @@
         <li>I am very handsome😄</li>
     </ul>
 
-    <h2>Contact</h2>
-	<p>Phone Number: 0637682490</p>
-    <p>Email: tazpoethaz04@email.com</p>
+    <h2>Contact Info</h2>
+<div class="contact">
+  <div class="row">
+    <span class="label">📞 Phone:</span>
+    <span class="value">063-768-2490</span>
+  </div>
 
+  <div class="row">
+    <span class="label">📧 Email:</span>
+    <span class="value">tazpoethaz04@email.com</span>
+  </div>
+
+  <div class="row">
+    <span class="label">🌐 Facebook:</span>
+    <span class="value">Taz Poe Thaz</span>
+  </div>
+
+  <div class="row">
+    <span class="label">🎵 TikTok:</span>
+    <span class="value">💐✝Taz Poe Thaz💐✝🐱‍👤</span>
+  </div>
+</div>
 </body>
 </html>
 <button onclick="sayHello()">Click Me</button>
